@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+
+}
+
+.registration {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: auto;
+    margin-left: auto;
+
+}
+
+.mb-3 {
+    width: 75%;
+    size: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+Form {
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    min-height: 500px;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 10px;
+    display: block;
+    
+}
+
+.sticky-top1 {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}

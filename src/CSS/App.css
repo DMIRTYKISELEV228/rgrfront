@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.guide {
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  min-height: 1024px;
+  background-color: #efefef;
+
+}
+
+body {
+  text-rendering: optimizelegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 14px;
+  color: #333;
+  min-width: 1015px;
+  background-image: url(https://hcsibir.ru/assets/sibir_fon-9d83886….jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 2277px 2600px;
+}
+
+*,
+*:after,
+*::before {
+  box-sizing: border-box;
+}
+
+
+
+.center {
+  display: block;
+  text-align: -webkit-center;
+}
+
+.item {
+  margin-top: 30px;
+}
+
+#leaders-list .item--status {
+  font: italic normal normal 16px/16px PFDinTextCondPro-Italic;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  color: white;
+  padding-left: 10px;
+  background-color: #15325c;
+  z-index: 99;
+  margin-top: -2px;
+  position: absolute;
+  bottom: 98px;
+  width: 100%;
+  padding: 7px 10px 3px;
+  box-shadow: 2px 4px 8px rgb(5 5 5 / 39%);
+}
+
+#leaders-list .item--name {
+  margin-top: 25px;
+  padding: 14px 80px 14px 10px;
+  font-family: HelveticaCondensedBold, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font: italic normal normal 20px/20px PFDinTextCondPro-Italic;
+  font-size: 25px;
+  color: #ffffff;
+  position: relative;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#leaders-list .item {
+  width: 220px;
+  height: 398px;
+  display: none;
+  vertical-align: top;
+  background: #ffffff;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.a {
+  color: black;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+
+
+}
+
+.boxs {
+  justify-content: space-around;
+  display: flex;
+  margin: 0 ;
+  width: 1000px;
+  margin-left:  20%;
+}
+
+.box {
+  color: black;
+  justify-content: center;
+  font-size: 25px;
+  border: 1px solid black;
+  width: 65%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
+}
+
+.box2 {
+  color: black;
+  justify-content: center;
+  font-size: 25px;
+  border: 1px solid black;
+  width: 35%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+
+  
+}
+
+.mr {
+margin-top: 10px;
+}
+
+.title {
+  font: italic normal normal 10px/10px PFDinTextCondPro-Italic;
+  align-items: center;
+}
+
+.cont {
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+.spons {
+  font-size: 20px;
+  margin-left: 30px;
+  text-align: left;
+
+}
+
+
+.lis {
+  justify-content: space-around;
+  display: flex;
+
+}
+
+
+.d {
+  text-align: center;
+  font-size: 25px;
+}
+
+
+.cs {
+  display: flex;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
