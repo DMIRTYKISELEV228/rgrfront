@@ -1,11 +1,10 @@
 import React from "react";
 import axios from 'axios';
-import Button from 'react-bootstrap/Button';
 import { useState, useEffect } from "react";
-import kor from '../../Img/kor.jpg'
 
 
-const Com = () => {
+const Staf = () => {
+
 
     const [comand, setComand] = useState(null);
     const [cat, setCat] = useState(null);
@@ -14,7 +13,7 @@ const Com = () => {
     useEffect(() => {
         axios
 
-            .get('/api/v1/hockey/')
+            .get('/api/v1/staff/')
             .then((response) => {
                 setComand(response.data);
 
@@ -25,10 +24,9 @@ const Com = () => {
 
     useEffect(() => {
         axios
-            .get('/api/v1/category/')
+            .get('/api/v1/prof/')
             .then((response) => {
                 setCat(response.data);
-
 
             })
             .catch((error) => { console.error(error) })
@@ -49,8 +47,8 @@ const Com = () => {
                                         <div class="item--img">
                                             <img src={elem.img} width='300px' height='300px' alt=" " />
                                         </div>
-                                        <div class="item--status" style={{ color: 'white' }}><div>{cat[elem.position].type}</div></div>
-                                        <div class="item--name"><div>{elem.surname} {elem.name}</div></div>
+                                        <div class="item--status" ><div>{cat[elem.idprof - 1].type}</div></div>
+                                        <div class="item--name"><div>{elem.name} {elem.surname}</div></div>
                                     </div>
                                 ))
                             }
@@ -65,4 +63,4 @@ const Com = () => {
 }
 
 
-export default Com;
+export default Staf;

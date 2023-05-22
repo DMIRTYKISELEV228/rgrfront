@@ -1,9 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-import '../CSS/Registration.css';
 import Modal from 'react-bootstrap/Modal';
 import React, { useState } from 'react';
-import '../CSS/Registration.css';
+import '../../CSS/Registration.css';
 
 function Registration() {
 
@@ -68,12 +67,12 @@ function Registration() {
                                 <Form.Check type="checkbox" label="Я принимаю условия обработки персональных данных ХК «Сибирь»" />
                             </Form.Group>
 
-                            
+
 
                         </Modal.Body>
 
                         <Modal.Footer>
-                        <Button variant="secondary" type="submit">
+                            <Button variant="secondary" type="submit">
                                 Зарегистрироваться
                             </Button>
                             {/* <Button variant="secondary" type="submit" onClick={handleClose}>

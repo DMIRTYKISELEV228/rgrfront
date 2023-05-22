@@ -6,6 +6,7 @@ import ButtonGroups from "./UI/Button/ButtonGroups";
 import Logins from "./ModalWindows/Logins";
 import '../CSS/Registration.css';
 import '../CSS/Headers.css';
+import logo from '../Img/logo.png'
 
 
 
@@ -83,9 +84,9 @@ export default class Header extends Component {
                     <Container>
                         <Navbar.Brand href="/">
                             <img
-                                src="favicon.ico"
-                                height={55}
-                                width={55}
+                                src={logo}
+                                height={65}
+                                width={65}
                                 className="d-inline-block align-top"
                                 alt="Logo"
                             />

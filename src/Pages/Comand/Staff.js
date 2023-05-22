@@ -1,6 +1,6 @@
 import React, {Component} from "react";
-import Header from "../Components/Header";
-import Staf from "../Components/UI/Staf";
+import Header from "../../Components/Header";
+import Staf from "../../Components/UI/Elements/Staf";
 
 export default class Staff extends Component { 
     render() {

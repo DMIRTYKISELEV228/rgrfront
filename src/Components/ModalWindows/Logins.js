@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Form from 'react-bootstrap/Form';
-import Registration from '../../Pages/Registration';
+import Registration from './Registration';
 
 function Logins() {
   const [show, setShow] = useState(false);

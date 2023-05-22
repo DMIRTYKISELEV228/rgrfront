@@ -1,10 +1,10 @@
 import React from "react";
 import axios from 'axios';
-import Button from 'react-bootstrap/Button';
 import { useState, useEffect } from "react";
 
 
-const Staf = () => {
+
+const Spon = () => {
 
     const [comand, setComand] = useState(null);
     const [cat, setCat] = useState(null);
@@ -13,7 +13,7 @@ const Staf = () => {
     useEffect(() => {
         axios
 
-            .get('/api/v1/staff/')
+            .get('/api/v1/guide/')
             .then((response) => {
                 setComand(response.data);
 
@@ -24,7 +24,7 @@ const Staf = () => {
 
     useEffect(() => {
         axios
-            .get('/api/v1/prof/')
+            .get('/api/v1/posts/')
             .then((response) => {
                 setCat(response.data);
 
@@ -33,8 +33,7 @@ const Staf = () => {
             .catch((error) => { console.error(error) })
     }, [])
 
-    // console.log(cat)
-    // console.log(comand)
+   
 
     return (
         <div>
@@ -48,7 +47,7 @@ const Staf = () => {
                                         <div class="item--img">
                                             <img src={elem.img} width='300px' height='300px' alt=" " />
                                         </div>
-                                        <div class="item--status" style={{ color: 'white' }}><div>{cat[elem.Idprof].prof}</div></div>
+                                        <div class="item--status" style={{ color: 'white' }}><div>{cat[elem.idprof - 1].type}</div></div>
                                         <div class="item--name"><div>{elem.surname} {elem.name}</div></div>
                                     </div>
                                 ))
@@ -64,4 +63,4 @@ const Staf = () => {
 }
 
 
-export default Staf;
+export default Spon;

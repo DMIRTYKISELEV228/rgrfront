@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Header from "../Components/Header";
+import Header from "../../Components/Header";
 
 export default class Sponsors extends Component {
     render() {
@@ -14,7 +14,8 @@ export default class Sponsors extends Component {
                             <div className="lis">
 
                                 <div>
-                                    <img src="https://hcsibir.ru/assets/founders/novosibirsk-999730914e18f9f6d457ea9188a1093af3c74ba19bee99694d7d82f3ba51a848.jpg" alt="Novosibirsk" />
+                                    <a href="http://www.nso.ru/"><img  src="https://hcsibir.ru/assets/founders/novosibirsk-999730914e18f9f6d457ea9188a1093af3c74ba19bee99694d7d82f3ba51a848.jpg" alt="Novosibirsk" /></a>
+                                    
                                     <br />
                                     <div className="title">
                                         <h5>
@@ -24,18 +25,19 @@ export default class Sponsors extends Component {
                                             НОВОСИБИРСКОЙ ОБЛАСТИ
                                         </h5>
                                     </div>
-                                    <a href="http://www.nso.ru/">http://www.nso.ru</a>
+                                    
 
                                 </div>
                                 <div>
-                                    <img src="https://hcsibir.ru/assets/founders/anthracite-70fc17927573e908e7c08a052dd66b2471baade17b09bf056cbd0efe08a1aa95.jpg" alt="Anthracite" />
+                                <a href="http://www.nso.ru/"><img src="https://hcsibir.ru/assets/founders/anthracite-70fc17927573e908e7c08a052dd66b2471baade17b09bf056cbd0efe08a1aa95.jpg" alt="Anthracite" /></a>
+                                    
                                     <br />
                                     <div className="title">
                                         <h5>
                                             АО «Сибирский Антрацит»
                                         </h5>
                                     </div>
-                                    <a href="http://www.nso.ru/">http://www.nso.ru</a>
+                                    
                                 </div>
                             </div>
 

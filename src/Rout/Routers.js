@@ -1,16 +1,16 @@
 import React from 'react';
 import Header from '../Components/Header';
 import About from '../Pages/About';
-import Contacts from '../Pages/Contacts';
-import Blog from '../Pages/Blog';
-import Registration from '../Pages/Registration';
-import Comand from '../Pages/Comand'
-import Sponsors from '../Pages/Sponsors'
-import Guide from '../Pages/Guide'
-import Staff from '../Pages/Staff'
-import New from '../Pages/New'
-import News from '../Pages/News'
-import CoachingStaff from '../Pages/СoachingStaff'
+import Contacts from '../Pages/Club/Contacts';
+import Blog from '../Pages/Press/Blog';
+import Registration from '../Components/ModalWindows/Registration';
+import Comand from '../Pages/Comand/Comand'
+import Sponsors from '../Pages/Club/Sponsors'
+import Guide from '../Pages/Club/Guide'
+import Staff from '../Pages/Comand/Staff'
+import New from '../Pages/Press/New'
+import News from '../Pages/Press/News'
+import CoachingStaff from '../Pages/Comand/СoachingStaff'
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
 
 function Routers() {

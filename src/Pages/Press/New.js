@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import Header from "../Components/Header";
-import '../CSS/App.css';
+import Header from "../../Components/Header";
+import '../../CSS/App.css';
 
 export default class New extends Component {
     render() {
