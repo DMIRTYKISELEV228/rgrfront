@@ -31,15 +31,14 @@ function Cards() {
             <div className='cs'>
               {
                 comand.map((elem) => (
-                  <Card style={{ width: '25rem', marginLeft: '10px' }}>
+                  <Card style={{ width: '25rem', marginLeft: '10px',border: '1px solid black', marginTop: '10px' }}>
                     <Card.Img variant="top" alt="" title="" src={elem.img} />
                     <Card.Body>
-                      <Card.Title style={{ fontSize: '20px' }}>
+                      <Card.Title style={{ fontSize: '18px' }}>
                         {elem.title}
                       </Card.Title>
                       <Card.Text>
-
-                        <p style={{ fontSize: '12.5px' }}>{elem.content}</p>
+                        <p style={{ fontSize: '13px' }}>{elem.content}</p>
                       </Card.Text>
                     </Card.Body>
                   </Card>
