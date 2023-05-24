@@ -31,8 +31,8 @@ function Cards() {
             <div className='cs'>
               {
                 comand.map((elem) => (
-                  <Card style={{ width: '25rem', marginLeft: '10px',border: '1px solid black', marginTop: '10px' }}>
-                    <Card.Img variant="top" alt="" title="" src={elem.img} />
+                  <Card style={{ width: '35rem', marginLeft: '10px', border: '1px solid black', borderRadius: '0', marginTop: '20px' }}>
+                    <Card.Img variant="top" alt="" title="" src={elem.img} style={{borderRadius: '0'}}  />
                     <Card.Body>
                       <Card.Title style={{ fontSize: '18px' }}>
                         {elem.title}
