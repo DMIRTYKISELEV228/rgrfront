@@ -52,7 +52,28 @@ function ButtonGroups() {
 
 
 
-        <Button className='group1' variant="secondary"><Nav.Link href="/"> Билеты </Nav.Link></Button>
+        <Button href="/" className='group1' variant="secondary">
+          <NavDropdown
+            id="nav-dropdown-dark-example"
+            title={"Билеты"}
+            menuVariant="dark"
+            style={{ color: 'white' }}
+            inline
+          >
+
+            <NavDropdown.Item href="/lds"> ЛДС  </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/roc"> Правила поведения </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/seasontickets"> Билеты на сезон </NavDropdown.Item>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="/tso"> Продажа Билетов Онлайн </NavDropdown.Item>
+
+
+          </NavDropdown>
+        </Button>
+
+
         <Button className='group1' variant="secondary"> <Nav.Link href="/"> Календарь </Nav.Link></Button>
         <Button className='group1' variant="secondary"> <Nav.Link href="/"> Статистика </Nav.Link></Button>
         <Button href="/new" className='group1' variant="secondary">

@@ -11,7 +11,9 @@ import Staff from '../Pages/Comand/Staff'
 import New from '../Pages/Press/New'
 import News from '../Pages/Press/News'
 import CoachingStaff from '../Pages/Comand/СoachingStaff'
+import TSO from '../Pages/Bilet/TSO';
 import { BrowserRouter as Router, Routes, Route, } from "react-router-dom";
+import SeasonTickets from '../Pages/Bilet/SeasonTickets';
 
 function Routers() {
 
@@ -32,6 +34,11 @@ function Routers() {
                 <Route path='/staff' element={<Staff />} />
                 <Route path='/new' element={<New />} />
                 <Route path='/news' element={<News />} />
+
+                <Route path='/tso' element={<TSO />} />
+                <Route path='/seasontickets' element={<SeasonTickets />} />
+                <Route path='/roc' element={<News />} />
+                <Route path='/lds' element={<News />} />
             </Routes>
         </Router>
 

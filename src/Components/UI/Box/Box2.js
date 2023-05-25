@@ -12,12 +12,12 @@ const Box2 = () => {
                         </a>
                     </div>
                     <div className="mr">
-                        <a class="banner" href="http://tickets.hcsibir.ru/">
+                        <a class="banner" href="/tso">
                             <img src="https://hcsibir.ru/uploads/advert/image/2/tickets.jpg" alt="Tickets" />
                         </a>
                     </div>
                     <div className="mr">
-                        <a class="banner" href="https://hcsibir.ru/pages/new_arena">
+                        <a class="banner" href="/seasontickets">
                             <img src="https://hcsibir.ru/uploads/advert/image/14/banner-abon-2022.png" alt="Banner abon 2022" />
                         </a>
                     </div>
